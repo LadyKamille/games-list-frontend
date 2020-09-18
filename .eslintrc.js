@@ -45,6 +45,8 @@ module.exports = {
       files: [
         '**/*.test.ts',
         '**/*.test.tsx',
+        'setupTests.ts',
+        'utils/test-utils.ts',
       ],
       env: {
         jest: true,
